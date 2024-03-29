@@ -1,5 +1,5 @@
 import Skill from "../components/skill";
-import html from "/assets/hrml5.png"
+import html from "/assets/html5.png"
 import js from "/assets/javascript.png"
 import css from "/assets/css3.png"
 import jquery from "/assets/jquery.png"
