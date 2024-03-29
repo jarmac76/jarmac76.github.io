@@ -1,3 +1,5 @@
+import jsm from "/assets/JSM.jpg"
+
 const Home = (props) => {
     return(
         <div className="main-band">
@@ -9,7 +11,7 @@ const Home = (props) => {
                     <h2>I am a developer who loves to create beautiful, high-quality web experiences. With a passion for problem solving and attention to detail I strive to provide the highest quality websites.</h2>
                 </div>
                 <div className="main2b">
-                    <img src='/src/assets/images/JSM.jpg' alt="Jared_McReynolds" />
+                    <img src={jsm} alt="Jared_McReynolds" />
                 </div>
             </div>
                
