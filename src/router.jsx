@@ -5,11 +5,13 @@ import About from "./pages/about-us";
 import Skills from "./pages/skills";
 import Resume from "./pages/resume";
 import Blog from "./pages/blog";
+import ErrorPage from "./pages/error404";
 
 const router = createBrowserRouter([
    {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
         {
             index: true,

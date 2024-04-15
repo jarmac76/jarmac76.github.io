@@ -444,5 +444,10 @@ nav {
   right: -6px;
 }
 
+/************* Error Page ******************/
 
+.error-header {
+  text-align: center;
+  margin-top: 50px;
+}
 
