@@ -18,16 +18,16 @@ return (
     <div className={`overlay-div ${menuOpen ? "overlay" : null }`}  >
       <div className="nav-panel">
         <div className="navItem">
-          <Link to="/" onClick={toggleMenu}>Home</Link>
+          <Link to="/jsmcreynolds-site-4/" onClick={toggleMenu}>Home</Link>
         </div>
         <div className="navItem">
-          <Link to="/about" onClick={toggleMenu}>About</Link>
+          <Link to="/jsmcreynolds-site-4/about" onClick={toggleMenu}>About</Link>
         </div>
         <div className="navItem">
-          <Link to="/skills" onClick={toggleMenu}>Skills</Link>
+          <Link to="/jsmcreynolds-site-4/skills" onClick={toggleMenu}>Skills</Link>
         </div>
         <div className="navItem">
-          <Link to="/resume" onClick={toggleMenu}>Experience</Link>
+          <Link to="/jsmcreynolds-site-4/resume" onClick={toggleMenu}>Experience</Link>
         </div>
         <div className="navItem" >
           <Link to="https://jsmcreynolds.wordpress.com/">Blog</Link>
