@@ -9,7 +9,7 @@ import ErrorPage from "./pages/error404";
 
 const router = createBrowserRouter([
    {
-    path: "/jsmcreynolds-site-4/",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
